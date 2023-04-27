@@ -30,7 +30,7 @@ namespace DriveBot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
             // get the bot token from an environment variable or configuration file
-            string token = "MTEwMDkzMDIxMzMwODc5NzA4OQ.G-UDCq.L8oKMt3T1C-MMmPIyVWwqLgSJ_Jj799sYRBNVg";
+            string token = "BOT-token";
             // register the command module and start the bot
             _client.Log += _client_Log;
             await RegisterCommandsAsync();
